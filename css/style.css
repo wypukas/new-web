@@ -1,0 +1,193 @@
+body{
+    text-align: center;
+    font-family: 'Roboto' ,sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    /*inherit paveldi tevine spalva */
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.container{
+    width: 96%;
+    margin: auto;
+    max-width: 900px;
+}
+section.hero-image{
+    background: url("../img/cover4.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+section.hero-image header{
+    background: rgba(255,255,255, .2);
+    /* 4 skaiciai duoda permatomuma*/
+    padding: 39px 0;
+}
+section.hero-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 0;
+}
+section.hero-image .right-menu{
+    float: right;
+    margin-right: 30px;
+}
+section.hero-image .left-menu{
+    float: left;
+    margin-left: 30px;
+}
+section.hero-image li{
+    display: inline-block;
+}
+section.hero-image a{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    line-height: 59px;
+    margin-left: 10px;
+}
+section.content .about-us{
+    width: 80%;
+    margin: 80px auto;
+}
+/* About us section*/
+.fa-bicycle{
+    font-size: 36px;
+    margin-bottom: 26px;
+    font-weight: bold;
+}
+section.content .about-us h1{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+section.content .about-us p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+
+}
+section.trecia {
+    height: 57vh;
+}
+
+section.trecia .gallery {
+    display:flex;
+    justify-content: stretch
+}
+
+section.trecia .gallery .big_half{
+    height: 350px;
+    overflow: hidden;
+    width: 100%;
+}
+section.trecia .gallery .big_half img{
+    transition: 2s;
+}
+
+.fa-braille {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #b3b3ff;
+}
+
+section.trecia .gallery .small_half .bigger{
+    height: 200px;
+}
+section.trecia .gallery .small_half h4 {
+    font-weight: 900;
+    font-size: 22px;
+    margin-top:10px;
+    color: black;
+}
+
+section.trecia .gallery .small_half p{
+    margin: 20px 20px;
+    font-size: 14px;
+    color: black;
+}
+
+
+section.trecia .gallery .small_half .smaller{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+section.trecia .gallery .small_half .smaller img{
+    width: 100%;
+    height: 150px;
+}
+/* second */
+section.trecia .gallery2 {
+    display:flex;
+    justify-content: stretch;
+    flex-direction: row-reverse;
+}
+
+section.trecia .gallery2 .big_half{
+    height: 350px;
+    overflow: hidden;
+    width: 100%;
+}
+section.trecia .gallery2 .big_half img{
+    transition: 2s;
+}
+
+.fa-braille {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #b3b3ff;
+}
+
+section.trecia .gallery2 .small_half .bigger{
+    height: 200px;
+}
+section.trecia .gallery2 .small_half h4 {
+    font-weight: 900;
+    font-size: 22px;
+    margin-top:10px;
+    color: black;
+}
+
+section.trecia .gallery2 .small_half p{
+    margin: 20px 20px;
+    font-size: 14px;
+    color: black;
+}
+
+
+section.trecia .gallery2 .small_half .smaller{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+section.trecia .gallery2 .small_half .smaller img{
+    width: 100%;
+    height: 150px;
+}
+section.trecia .gallery3 {
+    display:flex;
+    justify-content: stretch;
+}
+section.trecia .gallery3 .big{
+    height: 350px;
+    overflow: hidden;
+    width: 80%;
+}
+section.trecia .smaller img{
+    width: 100%;
+    height: 241px;
+    overflow: hidden;
+}
